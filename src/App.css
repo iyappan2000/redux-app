@@ -1,0 +1,33 @@
+body {
+  background-image: url(./components/assets/background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.page {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 110px 0;
+}
+.layout {
+  display: flex;
+  background-color: rgb(177, 175, 175);
+  color: white;
+  text-decoration: none;
+  min-width: auto;
+  height: 60px;
+  opacity: 75%;
+}
+
+.layout h4 {
+  text-decoration: none;
+  padding: 0 10px;
+}
+/* @media screen and (max-width: 786px) {
+  .page {
+    width: 100px;
+  }
+} */
